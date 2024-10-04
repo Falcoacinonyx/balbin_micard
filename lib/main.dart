@@ -17,9 +17,13 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 CircleAvatar(
-                  backgroundImage: AssetImage('images/ProfilePic.jpeg'),
-                  backgroundColor: Colors.black,
-                  radius: 60.0,
+                  backgroundColor: Colors.yellowAccent,
+                  radius: 62.0,
+                  child: CircleAvatar(
+                    backgroundImage: AssetImage('images/ProfilePic.jpeg'),
+                    backgroundColor: Colors.black,
+                    radius: 60.0,
+                  ),
                 ),
                 Text(
                   "Dexter Balbin",
@@ -55,11 +59,38 @@ class MyApp extends StatelessWidget {
                         color : Colors.black,
                       ),
                       title: Text(
-                          "+63 966 3066012"
+                          "+63 966 3066012",
+                        style: TextStyle(
+                          fontFamily: 'YatraOne',
+                          fontSize: 19.0,
+
+                        ),
                       ),
                     ),
                   ),
                 ),
+
+                Card(
+                  margin: EdgeInsets.symmetric(vertical: 20.0, horizontal: 30.0),
+                  child: Padding(
+                    padding: EdgeInsets.all(5.0),
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.email,
+                        color : Colors.black,
+                      ),
+                      title: Text(
+                          "falco.acinonyx@gmail.com",
+                        style: TextStyle(
+                          fontFamily: 'YatraOne',
+                          fontSize: 19.0,
+
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+
               ],
             )
         ),
