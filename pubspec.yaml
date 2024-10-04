@@ -46,6 +46,7 @@ flutter:
     - images/ProfilePic.jpeg
     - images/seaWaves.gif
     - images/dex.jpg
+    - images/seaCrop.gif
 
 
   fonts:
