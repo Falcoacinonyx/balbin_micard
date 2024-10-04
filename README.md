@@ -1,6 +1,6 @@
 # balbin_micard
 
-A new Flutter project.
+An app that shows a business card. Built using android studio.
 
 ## Getting Started
 
