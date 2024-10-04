@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.black,
         body: SafeArea(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
                   radius: 60.0,
                 ),
                 Text(
-                  "Rick Sanchez",
+                  "Dexter Balbin",
                   style: TextStyle(
                     fontFamily: 'Bungee_Tint',
                     fontSize: 30.0,
@@ -31,12 +31,12 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "Universe Engineer",
-                  style: TextStyle(
-                    fontFamily: 'Honk',
-                    fontSize: 20.0,
+                    "App Developer",
+                    style: TextStyle(
+                      fontFamily: 'Honk',
+                      fontSize: 20.0,
 
-                  )
+                    )
                 ),
                 SizedBox(
                   width: 300.0,
@@ -52,10 +52,10 @@ class MyApp extends StatelessWidget {
                     child: ListTile(
                       leading: Icon(
                         Icons.phone,
-                        color : Colors.teal,
+                        color : Colors.black,
                       ),
                       title: Text(
-                        "+63 966 3066012"
+                          "+63 966 3066012"
                       ),
                     ),
                   ),
